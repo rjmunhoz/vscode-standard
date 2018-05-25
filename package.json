@@ -32,6 +32,11 @@
           "type": "boolean",
           "default": false,
           "description": "Control whether Standard is enabled for JavaScript files or not."
+        },
+        "standard.options": {
+          "type": "object",
+          "default": {},
+          "description": "Additional options passed to ESLint"
         }
       }
     }

@@ -29,4 +29,5 @@ exports.activate = function activateStandard(context) {
   });
 
   context.subscriptions.push(new SettingMonitor(client, 'standard.enable').start());
+  context.subscriptions.push(new SettingMonitor(client, 'standard.options').start());
 };
